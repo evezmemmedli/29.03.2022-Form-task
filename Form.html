@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Feedback Form</h1>
+    <hr>
+    <form action="">
+        <ul>
+            <li><label for="firstname">Firstname </label>
+                <input type="text" id="firstname" name="firstname" placeholder="Type your name" minlength="3" maxlength="20"
+                size="20" required></li>
+            <li><label for="_email">Email address</label>
+                <input type="email" id="_email" placeholder="Enter email adress" required>
+            </li>
+            <li>
+                <label for="pw">Password</label>
+                <input type="password" name="" id="pw" required>
+            </li> <br>
+            <li>
+                    Please check all the emotions that apply to you :
+                    <ul type="disc">
+                        <li>Angry <input type="checkbox"></li>
+                        <li>Sad <input type="checkbox"></li>
+                        <li>Happy <input type="checkbox"></li>
+                        <li>Ambivalent <input type="checkbox"></li>
+                    </ul>
+            </li>
+            <li>
+                How satisfiedwere you with our service?
+                <ul>
+                    
+                    <li>
+                        Very Satisfied <input type="radio" name="Feelings">
+                    </li>
+                    <li>
+                      Satisfied <input type="radio" name="Feelings">
+                    </li>
+                    <li>
+                        Didn't care <input type="radio" name="Feelings">
+                    </li>
+                    <li>
+                        Dissatisfied <input type="radio" name="Feelings">
+                    </li>
+                    <li>
+                        Very Dissatisfied <input type="radio" name="Feelings">
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label for="message">Comment:</label>
+            <textarea name="" id="message" cols="25" rows="2"></textarea>
+            </li>
+            <li>
+               <span>Bio Photo:</span>  <input type="file" multiple accept="image/*">
+            </li>
+            <li>
+                <label for="location">Location visited:</label>
+                <select name="" id="">
+                    <option value="" disabled selected hidden > Select Location</option>
+                    <option value="Baki">Baki</option>
+                    <option value="Seki">Seki</option>
+                    <option value="Salyan">Salyan</option>
+                </select>
+            </li>
+        </ul>
+        
+            <li>
+                <input type="submit" value="Submit">
+            </li>
+    </form>
+</body>
+</html>
